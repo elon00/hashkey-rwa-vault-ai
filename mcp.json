@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "hashkey-rwa-vault-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "HashKey Chain",
+        "PROJECT_TICKER": "HKRWA"
+      },
+      "tools": [
+        {
+          "name": "verify_hkrwa_invariants",
+          "description": "Verifies deterministic invariants for HashKey RWA Vault AI on HashKey Chain."
+        },
+        {
+          "name": "execute_hkrwa_action",
+          "description": "Executes authenticated RWA state transition."
+        }
+      ]
+    }
+  }
+}

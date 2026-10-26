@@ -1,0 +1,9 @@
+[package]
+name = "hashkey-rwa-vault-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "Real World Asset tokenization and institutional compliance vault"
+license = "MIT"
+
+[dependencies]
